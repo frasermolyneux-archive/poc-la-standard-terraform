@@ -1,0 +1,10 @@
+parameters:
+  - name: environment
+    type: string
+
+jobs:
+  - job: Deploy
+    displayName: Deploy {{ parameters.environment }}
+
+    steps:
+      - pwsh: Write-Host "Deploy"

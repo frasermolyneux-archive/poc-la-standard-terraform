@@ -1,0 +1,6 @@
+jobs:
+  - job: Build
+    displayName: Build application
+
+    steps:
+      - pwsh: Write-Host "Build"

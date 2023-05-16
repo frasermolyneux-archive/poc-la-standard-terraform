@@ -1,0 +1,6 @@
+jobs:
+  - job: Lint
+    displayName: Lint
+
+    steps:
+      - pwsh: Write-Host "Lint"
